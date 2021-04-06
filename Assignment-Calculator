@@ -1,0 +1,52 @@
+ package com.company;
+
+Public class Calculator {
+    Public static double NUM_1;
+    Public static double NUM_2;
+    Public static double sum(double NUM_1, double NUM_2){
+        Return (NUM_1 + NUM_2);
+    }
+    Public static double multiply(double NUM_1, double NUM_2){
+        Return (NUM_1 * NUM_2);
+    }
+    Public static double divide(double NUM_1, double NUM_2){
+        Return (NUM_1 / NUM_2);
+    }
+    Public static double modulus(double NUM_1, double NUM_2){
+        Return (NUM_1 % NUM_2);
+    }
+    Public static double sin(double s){
+        Return (Math.sin(s));
+    }
+    Public static double cos(double c){
+        Return (Math.cos©);
+    }
+    Public static double tan(double t){
+        Return (Math.tan(t));
+    }
+}
+package com.company;
+Import java.util.Scanner;
+
+Public class Runner {
+    Public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println(“Perform following operations: sum,multiply,divide,modulus,sin,cos,tan”);
+        System.out.println(“Enter numbers:”);
+        System.out.print(“Enter first number: “);
+        Double NUM_1 = sc.nextInt();
+        System.out.print(“Enter second number: “);
+        Double NUM_2 = sc.nextInt();
+        System.out.println(“Sum of two number = “ + Calculator.sum(NUM_1, NUM_2));
+        System.out.println(“Product of two number = “ + Calculator.multiply(NUM_1, NUM_2));
+        System.out.println(“Dividing two number =” + Calculator.divide(NUM_1,NUM_2));
+        System.out.println(“Modulus of two number = “ + Calculator.modulus(NUM_1,NUM_2));
+        System.out.println(“sin of first number = “ + Calculator.sin(NUM_1));
+        System.out.println(“sin of second number = “ + Calculator.sin(NUM_2));
+        System.out.println(“cos of first number = “ + Calculator.cos(NUM_1));
+        System.out.println(“cos of second number = “ + Calculator.cos(NUM_2));
+        System.out.println(“tan of first number = “ + Calculator.tan(NUM_1));
+        System.out.println(“tan of second number = “ + Calculator.tan(NUM_2));
+    }
+}
+
