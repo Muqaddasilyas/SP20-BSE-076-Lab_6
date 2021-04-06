@@ -1,0 +1,28 @@
+  package com.company;
+
+Public class Calculator {
+    Public static double NUM_1;
+    Public static double NUM_2;
+    Public static double sum(double NUM_1, double NUM_2){
+        Return (NUM_1 + NUM_2);
+    }
+    Public static double multiply(double NUM_1, double NUM_2){
+        Return (NUM_1 * NUM_2);
+    }
+    Public static double divide(double NUM_1, double NUM_2){
+        Return (NUM_1 / NUM_2);
+    }
+    Public static double modulus(double NUM_1, double NUM_2){
+        Return (NUM_1 % NUM_2);
+    }
+    Public static double sin(double s){
+        Return (Math.sin(s));
+    }
+    Public static double cos(double c){
+        Return (Math.cos©);
+    }
+    Public static double tan(double t){
+        Return (Math.tan(t));
+    }
+}
+
