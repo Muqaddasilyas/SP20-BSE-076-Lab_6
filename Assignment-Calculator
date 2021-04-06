@@ -19,7 +19,7 @@ Public class Calculator {
         Return (Math.sin(s));
     }
     Public static double cos(double c){
-        Return (Math.cos©);
+        Return (Math.cos(c));
     }
     Public static double tan(double t){
         Return (Math.tan(t));
